@@ -1,0 +1,87 @@
+.titulo{
+text-align: center;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 42px;
+text-transform: capitalize;
+
+color: var(--color5);
+}
+.caja{
+
+margin-left: 14rem;
+margin-top: 1.5rem;
+box-sizing: border-box;
+width: 343px;
+height: 453px;
+left: calc(50% - 343px/2 - 0.5px);
+top: calc(50% - 453px/2 + 0.5px);
+
+background: var(--color4);
+border: 1px solid var(--color3);
+border-radius: 20px;
+
+}
+.subt1{
+    margin-left: 8rem;
+    margin-top: 8rem;
+    text-align:justify;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: capitalize;
+    color: var(--color1);
+}
+.subt2{
+    margin-left: 8rem;
+    margin-top: 3rem;
+    text-align:justify;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: capitalize;
+    color: var(--color1);
+}
+.esc1{
+    height: 2.5rem;
+    margin-left: 8rem;
+    border-radius: 10%;
+    border-color: var(--color1);
+    margin-top: 2rem;
+}
+.esc2{
+    height: 2.5rem;
+    margin-left: 8rem;
+    border-radius: 10%;
+    border-color: var(--color1);
+    margin-top: 2rem;
+}
+button{
+    margin-top: 5rem;
+    margin-left: 8.5rem;
+    width: 163px;
+    height: 45px;
+    left: 93px;
+    top: 345px;
+
+    background: var(--color1);
+    border-radius: 20px;
+}
+button p{
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+
+    text-transform: capitalize;
+    color: var(--color4);
+}
